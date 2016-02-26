@@ -1,0 +1,18 @@
+;; Anything you type in here will be executed
+;; immediately with the results shown on the
+;; right.
+(def height-in-inches (* 6 12))
+(def height-from-inches-to-centimetres (* height-in-inches 2.54))
+(def height-person1 174)
+(def height-person2 192)
+(def total-height-in-cm (+ height-from-inches-to-centimetres height-person1 height-person2))
+(def avg-height-in-cm (/ total-height-in-cm 3))
+; convert back to inches
+(def convert-back-to-inches (quot avg-height-in-cm 2.54))
+; convert back to feet
+(def convert-back-to-feet (quot convert-back-to-inches 12))
+(vector 5 10 15)
+(conj [5 10] 1)
+
+
+
