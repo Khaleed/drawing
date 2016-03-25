@@ -1,7 +1,7 @@
 ;define namespace and require quil lib
 ;set the stage for drawing
-(ns drawing.lines
-  (:require [quil.core :as ql]))
+(ns warya.lines
+  (:require [quil.core :as q]))
 (defn setup []
   ;re-draw every 30 secs
   (q/frame-rate 30)
@@ -24,19 +24,8 @@
     (apply q/line line))))
 
 (q/defsketch hello-lines
-
   :title "You can see lines"
-
   :size [500 500]
-
   :setup setup
-
   :draw draw
-
   :features [:keep-on-top])
-
-
-
-
-
-
