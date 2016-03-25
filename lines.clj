@@ -1,8 +1,7 @@
 ;define namespace and require quil lib
-(ns drawing.lines
-   (:require [quil.core :as q]))
-
 ;set the stage for drawing
+(ns drawing.lines
+  (:require [quil.core :as ql]))
 (defn setup []
   ;re-draw every 30 secs
   (q/frame-rate 30)
