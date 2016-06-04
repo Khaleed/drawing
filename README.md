@@ -4,9 +4,9 @@ A Quil sketch designed to ... well, that part is up to you.
 
 ## Usage
 
-LightTable - open `core.clj` and press `Ctrl+Shift+Enter` to evaluate the file.
-
 Emacs - run cider, open `core.clj` and press `C-c C-k` to evaluate the file.
+
+Spacemacs - `Spc-m Spc-s Spc-i` to run cider, open `core.clj` and press `Spc-m Spc-e Spc-b` to evaluate the buffer
 
 REPL - run `(require 'drawing.core)`.
 
